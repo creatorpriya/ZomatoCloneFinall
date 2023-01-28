@@ -1,0 +1,43 @@
+{
+  "name": "zomatoclonefinallproject",
+  "version": "1.0.0",
+  "description": "My Finall project of FSWD.",
+  "main": "Finall.js",
+  "scripts": {
+    "build": "babel Finall.js -d dist",
+    "start": "npm run build && node dist/Finall.js",
+    "dev": "nodemon --exec babel-node Finall.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/creatorpriya/ZomatoCloneFinall.git"
+  },
+  "author": "Priya Kumari.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/creatorpriya/ZomatoCloneFinall/issues"
+  },
+  "homepage": "https://github.com/creatorpriya/ZomatoCloneFinall#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1299.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "joi": "^17.7.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.8.3",
+    "multer": "^1.4.5-lts.1",
+    "passport": "^0.6.0",
+    "passport-google-oauth2": "^0.2.0",
+    "passport-jwt": "^4.0.1",
+    "password": "^0.1.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.12",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
+    "nodemon": "^2.0.20"
+  }
+}
